@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Homepage My Websites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo2.PNG"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="biodata.html">BIODATA</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="experience.html">EXPERIENCE</a></li>
+                        <li><a href="family.html">FAMILY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>My Biodata</h1>
+        </section>
+
+<!------ my biodata content ------->
+
+<section class="my-biodata">
+
+    <div class="row">
+        <div class="my-col">
+            <h1>A little bit about myself</h1>
+            <p>My name is Nur Syafiza Binti Md Zawawi or more simply known as Fiza. 
+            I am unofficially 21 years old this year and a student of Universiti Teknologi Mara (UiTM) Kampus Rembau.
+            I was born on October 20, 2001 in a government hospital located in Kuala Kubu Bharu, Hulu Selangor.
+            I have six siblings and am the sixth child in the family. I have three sisters and two brothers.
+            In addition, four of my siblings have graduated and have worked according to the fields they studied while at University.
+            Now, only me and my sister number three are still studying at different universities but in the same semester, which is semester five</p>
+            
+        </div>
+        <div class="my-col"></div>
+            <img src="Images/photo6278283305694638023.jpg">
+    </div>
+
+</section>
+
+
+
+
+
+<!------ footer ------->
+
+<section class="footer">
+    
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Nur Syafiza</p>
+
+</section>
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+
+</body>
+</html>

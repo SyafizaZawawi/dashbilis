@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Homepage My Websites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo2.PNG"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="biodata.html">BIODATA</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="experience.html">EXPERIENCE</a></li>
+                        <li><a href="family.html">FAMILY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>My Happy Family</h1>
+        </section>
+
+<!------ experience page content ------->
+
+<section class="experience-content">
+    <div class="row">
+        <div class="experience-left">
+            <img src="Images/my family.JPG">
+            <h2>My Greatest Treasure!</h2>
+            <p>I grew up having a complete and happy family. Thus, the meaning of a complete family by me is complete with the presence of people who are called father, mother, sister and brother. 
+                My siblings and I have been well educated by both of our parents. My father was a firm man and my mother was gentle. Their combination has made us siblings always obedient and not do anything that is forbidden by them. 
+                As a family, we always love and counsel each other for the sake of maintaining family harmony.</p>
+            <p>"Home is where you are loved the most and act the worst" -Marjorie Pay Hinckley</p>
+
+
+        </div>
+        
+    </div>
+
+</section>
+
+
+<!------ memory ------->
+
+<section class="memory">
+    <h1>Meet my Family Members</h1>
+
+    <div class="row">
+        <div class="memory-col">
+            <img src="Images/fam 1.jpg">
+            <div class="layer">
+            </div>
+        </div>
+        <div class="memory-col">
+            <img src="Images/photo6280535105508322831.jpg">
+            <div class="layer">
+            </div>
+        </div>        
+        <div class="memory-col">
+            <img src="Images/fam 2.jpg">
+            <div class="layer">
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!------ footer ------->
+
+<section class="footer">
+    
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Nur Syafiza</p>
+
+</section>
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+
+</body>
+</html>
